@@ -52,7 +52,7 @@ This project aims to optimize stock return predictions by leveraging network cen
   - **SMAPE** (Symmetric Mean Absolute Percentage Error)
   - **RMSE** (Root Mean Square Error)
  
-## 6. Results Snapshot
+## Results Snapshot
 
 | Model                   | SMAPE (%) | RMSE   |
 |------------------------|-----------|--------|
@@ -67,7 +67,7 @@ This project aims to optimize stock return predictions by leveraging network cen
 ## Visual Highlights
 
 - **Network Graphs** showing the structure of stock interactions (2019 vs. 2023)
-- 
+  
   ![Centrality Measures Over Time for NCLH](results/figures/CentralityMeasuresOverTime.png)
   **Fig. 1:** Centrality measures over time for NCLH
 
