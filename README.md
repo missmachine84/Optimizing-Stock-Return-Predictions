@@ -71,5 +71,6 @@ This project aims to optimize stock return predictions by leveraging network cen
 - ![Centrality Measures Over Time for NCLH](results/figures/CentralityMeasuresOverTime.png)
 - **Actual vs Predicted Return Curves** comparing LSTM and LR performance
 - ![With Centrality Measures](results/figures/WithCentMeasures.png)
+- With centrality measures
 - ![Without Centrality Measures](results/figures/WithoutCentMeasures.png)
-
+Without centrality measures
