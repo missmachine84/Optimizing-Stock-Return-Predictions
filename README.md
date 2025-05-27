@@ -67,10 +67,12 @@ This project aims to optimize stock return predictions by leveraging network cen
 ## Visual Highlights
 
 - **Network Graphs** showing the structure of stock interactions (2019 vs. 2023)
-- **Centrality Time Series** for key stocks like NCLH and AAL
+- 
   ![Centrality Measures Over Time for NCLH](results/figures/CentralityMeasuresOverTime.png)
-- **Actual vs Predicted Return Curves** comparing LSTM and LR performance
+  - **Fig. 1:** Centrality measures over time for NCLH
+
   ![With Centrality Measures](results/figures/WithCentMeasures.png)
-- With centrality measures
+  - **Fig. 2:** comparing LSTM and LR performance with Centrality Measures
+
   ![Without Centrality Measures](results/figures/WithoutCentMeasures.png)
-- Without centrality measures
+- **Fig. 2:** comparing LSTM and LR performance without Centrality Measures
