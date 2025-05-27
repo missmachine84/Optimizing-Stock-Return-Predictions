@@ -69,6 +69,7 @@ This project aims to optimize stock return predictions by leveraging network cen
   ![Network Graph 1-10-2019](results/figures/1-10-2019.png)
   **Fig 1:** Network graphs showing the structure of stock interactions for the first week of analysis
   
+  
   ![Network Graph 12-28-2023](results/figures/12-28-2023.png)
   **Fig 2:** Network graphs showing the structure of stock interactions for the last week of analysis
   
