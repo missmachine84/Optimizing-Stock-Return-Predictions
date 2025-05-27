@@ -1,4 +1,4 @@
-# Optimizing-Stock-Return-Predictions
+# Optimizing Stock Return Predictions
 This project aims to optimize stock return predictions by leveraging network centrality measures based on maximized lagged correlations between stocks.
 
 ##  Project Summary
@@ -14,7 +14,7 @@ This project aims to optimize stock return predictions by leveraging network cen
   - Predictive modeling with LSTM and Linear Regression
 
 
-## ⚙️ Methodology
+## Methodology
 
 ### 1. Data Collection & Preprocessing
 - Fetched daily prices for 5 years using `yfinance`
@@ -70,5 +70,6 @@ This project aims to optimize stock return predictions by leveraging network cen
 - **Centrality Time Series** for key stocks like NCLH and AAL
 - ![Centrality Measures Over Time for NCLH](results/figures/CentralityMeasuresOverTime.png)
 - **Actual vs Predicted Return Curves** comparing LSTM and LR performance
+- ![With Centrality Measures](results/figures/WithCentMeasures.png)
+- ![Without Centrality Measures](results/figures/WithoutCentMeasures.png)
 
-- 
