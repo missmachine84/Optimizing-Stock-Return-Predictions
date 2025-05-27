@@ -1,4 +1,4 @@
-# Optimizing Stock Return Predictions
+# Optimizing Stock Return Predictions Using Network Centrality Measures Based on Maximized Lagged Correlations
 This project aims to optimize stock return predictions by leveraging network centrality measures based on maximized lagged correlations between stocks.
 
 ##  Project Summary
@@ -67,6 +67,7 @@ This project aims to optimize stock return predictions by leveraging network cen
 ## Visual Highlights
 
   ![Network Graph 1-10-2019](results/figures/1-10-2019.png)
+  
   **Fig 1:** Network graphs showing the structure of stock interactions for the first week of analysis
   
   ![Network Graph 12-28-2023](results/figures/12-28-2023.png)
