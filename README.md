@@ -64,7 +64,7 @@ This project aims to optimize stock return predictions by leveraging network cen
 ✅ LSTM benefited from centrality features  
 ❌ Linear Regression failed with complex (nonlinear) inputs
 
-- ## Visual Highlights
+## Visual Highlights
 
   ![Network Graph 1-10-2019](results/figures/1-10-2019.png)
   
@@ -83,7 +83,7 @@ This project aims to optimize stock return predictions by leveraging network cen
   ![Without Centrality Measures](results/figures/WithoutCentMeasures.png)
   **Fig. 5:** Comparing LSTM and LR performance without centrality measures
 
-- ## Conclusion
+## Conclusion
 
 This project explored whether network centrality measures, derived from maximized lagged correlations between stocks, could enhance the prediction of weekly stock returns. By constructing a correlation-based stock network and extracting centrality features (e.g., PageRank, betweenness), we tested their predictive value using two models: LSTM and Linear Regression.
 
