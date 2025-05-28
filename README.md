@@ -64,7 +64,7 @@ This project aims to optimize stock return predictions by leveraging network cen
 ✅ LSTM benefited from centrality features  
 ❌ Linear Regression failed with complex (nonlinear) inputs
 
-## Visual Highlights
+- ## Visual Highlights
 
   ![Network Graph 1-10-2019](results/figures/1-10-2019.png)
   
