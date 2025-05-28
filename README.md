@@ -85,7 +85,7 @@ This project aims to optimize stock return predictions by leveraging network cen
 
 ## Conclusion
 
-This project explored whether network centrality measures, derived from maximized lagged correlations between stocks, could enhance the prediction of weekly stock returns. By constructing a correlation-based stock network and extracting centrality features (e.g., PageRank, betweenness), we tested their predictive value using two models: LSTM and Linear Regression.
+This project explored whether network centrality measures, derived from maximized lagged correlations between stocks, could enhance the prediction of weekly stock returns. By constructing a correlation-based stock network and extracting centrality features (e.g., PageRank, betweenness), I tested their predictive value using two models: LSTM and Linear Regression.
 
 ### Key Findings:
 - **LSTM Model Performance:**
