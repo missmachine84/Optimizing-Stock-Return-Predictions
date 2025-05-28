@@ -82,3 +82,21 @@ This project aims to optimize stock return predictions by leveraging network cen
 
   ![Without Centrality Measures](results/figures/WithoutCentMeasures.png)
   **Fig. 5:** Comparing LSTM and LR performance without centrality measures
+
+- ## Conclusion
+
+This project explored whether network centrality measures, derived from maximized lagged correlations between stocks, could enhance the prediction of weekly stock returns. By constructing a correlation-based stock network and extracting centrality features (e.g., PageRank, betweenness), we tested their predictive value using two models: LSTM and Linear Regression.
+
+### Key Findings:
+- **LSTM Model Performance:**
+  - With centrality measures: **SMAPE = 11.35%**, **RMSE = 28.26**
+  - Without centrality measures: **SMAPE = 11.66%**, **RMSE = 28.99**
+  - 🔹 *Result*: Slight performance improvement, suggesting LSTM can effectively leverage complex network features.
+
+- **Linear Regression Model Performance:**
+  - With centrality measures: **SMAPE = 41.70%**, **RMSE = 77.08**
+  - Without centrality measures: **SMAPE = 11.55%**, **RMSE = 30.77**
+  - 🔻 *Result*: Dramatic performance drop, indicating linear models struggle with nonlinear features like centrality.
+
+These results emphasize the importance of **model selection** and **feature engineering** in financial prediction. Centrality measures provide valuable market structure information, but only advanced models like LSTM can fully utilize them. This work highlights the potential of combining **network science** and **deep learning** for better market forecasting and opens the door for further enhancements with graph-based features.
+
