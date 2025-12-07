@@ -61,8 +61,8 @@ This project aims to optimize stock return predictions by leveraging network cen
 | Linear Regression w/ C | 41.70     | 77.08  |
 | Linear Regression w/o C| 11.55     | 30.77  |
 
-✅ LSTM benefited from centrality features  
-❌ Linear Regression failed with complex (nonlinear) inputs
+ LSTM benefited from centrality features  
+ Linear Regression failed with complex (nonlinear) inputs
 
 ## Visual Highlights
 
@@ -91,12 +91,12 @@ This project explored whether network centrality measures, derived from maximize
 - **LSTM Model Performance:**
   - With centrality measures: **SMAPE = 11.35%**, **RMSE = 28.26**
   - Without centrality measures: **SMAPE = 11.66%**, **RMSE = 28.99**
-  - 🔹 *Result*: Slight performance improvement, suggesting LSTM can effectively leverage complex network features.
+  -  *Result*: Slight performance improvement, suggesting LSTM can effectively leverage complex network features.
 
 - **Linear Regression Model Performance:**
   - With centrality measures: **SMAPE = 41.70%**, **RMSE = 77.08**
   - Without centrality measures: **SMAPE = 11.55%**, **RMSE = 30.77**
-  - 🔻 *Result*: Dramatic performance drop, indicating linear models struggle with nonlinear features like centrality.
+  -  *Result*: Dramatic performance drop, indicating linear models struggle with nonlinear features like centrality.
 
 These results emphasize the importance of **model selection** and **feature engineering** in financial prediction. Centrality measures provide valuable market structure information, but only advanced models like LSTM can fully utilize them. This work highlights the potential of combining **network science** and **deep learning** for better market forecasting and opens the door for further enhancements with graph-based features.
 
